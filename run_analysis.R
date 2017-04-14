@@ -66,3 +66,4 @@ means <- alldata %>% group_by(ACTIVITY_NAME, SUBJECT) %>% summarize_all(mean)
 #optionally, you can export the resulting data to csv by commenting below lines:
 #write_csv(alldata, "alldata.csv")
 #write_csv(means, "means.csv")
+write.table(means, "means.tab", row.names=FALSE)
