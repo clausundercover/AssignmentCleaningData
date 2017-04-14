@@ -13,4 +13,10 @@ From this folder, it reads the following files:
   train/X_train.txt
   train/y_train.txt
   train/subject_train.txt
+  
+It then aggregates the two data sets' rows and  columns to produce a single dataset.
+It replaces the activity numbers by activity names to produce the dataset called "alldata"
+It then summarizes the alldata dataset by columns, producing means, in the dataset called "means"
+
 The description of the files and the data within is contained in the README.txt file in the UCI HAR Dataset folder.
+
